@@ -1,8 +1,6 @@
 // Advay Koranne
-// Andrew Merrill
 // CS III
 
-// Tifanys private key: 20756598093195912641
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
@@ -17,11 +15,7 @@ public class KeyGenerator {
     private static BigInteger d;
     private static Object StringBuilder;
 
-//  2255188081
-//  4160961853
-//  phi_n: 9383751569965124160
-//  65;9383751576381274093;1970535885480805511
-//  private key: 8670669086327647991
+
 
     public KeyGenerator() {
     }
@@ -30,7 +24,6 @@ public class KeyGenerator {
     public static void main(String[] args) {
         dixons_algoritm("40657");
 //        System.out.println("ok");
-//        Key myKey = makeKey(" 72;3812181944669389192337;20457797492398430533");
 //        myKey = fermatsAlgorithm(myKey);
 //        System.out.println("done with key breaking");
 //        String decryptedMessage = decrypt_message("289395698614544624043", myKey);
@@ -188,13 +181,4 @@ public class KeyGenerator {
         System.out.println(Arrays.deepToString(matrix));
 
     }
-
-
-
-
-
-    public static void frfunction() {
-
-    }
-
 }
